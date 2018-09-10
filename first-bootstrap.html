@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>first-bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<section class="sec1">
+		<div class="sub-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1">
+						<div class="logo">
+							<p>Logo</p>
+						</div>
+					</div>
+					<div class="col-lg-6 offset-lg-5">
+						<nav>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a class="active" href="#">Log in</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bot-section"><img src="img/mouse.svg" alt="mouse"></div>
+	</section>
+
+	<section class="sec2">
+		<div class="container">
+			<div class="row">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit doloribus at quisquam maxime numquam eveniet harum laboriosam inventore, nihil molestiae dolore temporibus quis, commodi voluptas natus quia libero ipsum, blanditiis corrupti sunt eius aspernatur corporis. Ullam omnis voluptatibus alias! Assumenda, delectus! Ratione veniam, ipsam, recusandae porro aliquam, delectus debitis illum labore vel alias quia. Aspernatur autem excepturi illo quo, consequatur placeat fugiat quos, nesciunt molestiae et mollitia quam temporibus! Eligendi voluptas eos velit non laudantium itaque ducimus illum sed odio ab dolorem quae, ipsa consectetur unde nobis! Sapiente sint cum reprehenderit repellat nostrum laudantium dolorum sunt praesentium necessitatibus officiis. Hic!</p>
+				<p>Non temporibus cupiditate veniam excepturi reprehenderit possimus officiis quam at laborum repellendus illo natus quasi et sunt dignissimos sapiente voluptatum, deleniti aliquam, aliquid, magni consequatur. Rem, quaerat cumque, ab perferendis itaque voluptates recusandae quia deleniti rerum sed sequi dolorem excepturi. Sed eveniet accusantium veritatis adipisci, eligendi dolores nemo vel suscipit, at vero odio repellat, aperiam cumque assumenda enim earum laudantium possimus deserunt voluptates perspiciatis molestias saepe aspernatur totam. Qui asperiores accusantium eveniet. Inventore porro iusto sequi eveniet quibusdam repudiandae possimus? Consequuntur maxime ipsum, earum ab ad et, quam pariatur tenetur, non id nulla impedit culpa. Sit recusandae architecto natus mollitia.</p>
+				<p>Nihil voluptatibus enim odit saepe, ea at mollitia repellat delectus quidem dolores. Hic consequatur, quo provident ut similique obcaecati maxime eligendi iure expedita totam earum quae qui ad aspernatur sequi, dolore reiciendis. Fugiat adipisci laborum, accusantium vero! Quia quaerat explicabo vel fugiat expedita consequuntur beatae tempora culpa atque magni veniam inventore, non officiis autem labore hic error dignissimos dolorum pariatur ipsa eligendi obcaecati officia veritatis. Numquam labore eos ducimus neque delectus nisi impedit enim suscipit error tenetur aliquid debitis nulla adipisci repellat accusamus eum architecto quam praesentium odit cumque eveniet, laborum. Dolor reiciendis aut voluptatum, sed fuga molestias perspiciatis nostrum.</p>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if($(window).scrollTop()) {
+				$(".sub-section").addClass("black");
+			}
+			else {
+				$(".sub-section").removeClass("black");
+			}
+		})
+	</script>
+
+</body>
+</html>
